@@ -1,0 +1,31 @@
+# 비공개 문서 저장소 (sagwan-agent-notes를 여기에 clone)
+notes/
+
+# 비밀값
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+
+# 생성된 미디어·작업 결과물 (용량이 커서 Git에 올리지 않음)
+output/
+renders/
+*.mp4
+*.mov
+*.wav
+*.mp3
+
+# OS / 에디터
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
